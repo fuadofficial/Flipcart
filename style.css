@@ -1,0 +1,304 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+}
+ 
+/* header navbar */
+/* box 1 */
+
+
+.navbar{
+      background-color:#fff;
+      height: 67px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+}
+.nav-logo{
+      height: 139px;
+      width: 160px;
+}
+.logo{
+      background-image: url("images/flipkart-logo-.png");
+      background-size: cover;
+      height: 139px;
+      width: 100%;
+}
+
+/* box 2 */
+
+.nav-search{
+      display: flex;
+      align-items: center;
+}
+.nav-search i{
+     height: 39px;
+     width: 40px;
+     font-size: 25px;
+     background-color:#e7f5f8;
+     padding: 10px;
+     color: gray;
+     border-top-left-radius: 8px;
+     border-bottom-left-radius: 8px;
+}
+.nav-search input{
+      width: 550px;
+      height: 39px;
+      background-color: #e7f5f8;
+      border: none;
+      font-size: 20px;
+      border-top-right-radius: 8px;
+      border-bottom-right-radius: 8px;
+}
+
+/* box 3 */
+
+.nav-login{
+      font-size: 18px;
+}
+
+/* box 4 */
+
+.nav-cart{
+      font-size: 18px;
+}
+.nav-cart i{
+      font-size: 20px;
+}
+
+/* box 5 */
+.nav-seller{
+      font-size: 18px;
+}
+
+/* sub navbar */
+
+
+.second-navbar{
+      height: 146px;
+      width: 100%;
+      background-color: rgb(241, 236, 236);
+      display: flex;
+      justify-content: center;
+}
+.sub-navbar{
+      height: 126px;
+      width: 98%;
+      background-color:#fff;
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      font-size: 14px;
+      font-weight: bold;
+      color: rgb(68, 64, 64);
+}
+
+/* sections of sub navbar */
+
+
+.image-size{
+      height: 64px;
+      width: 64px;
+}
+.first-image{
+      background-image: url("images/sub nav section 1.webp");
+}
+.second-image{
+      background-image: url("images/sub nav section 2.webp");
+}
+.third-image{
+      background-image: url("images/sub nav section 3.webp");
+}
+.forth-image{
+      background-image: url("images/sub nav section 4.webp");
+}
+.fifth-image{
+      background-image: url("images/sub nav section 5.webp");
+}
+.sixth-image{
+      background-image: url("images/sub nav section 6.webp");
+}
+.seventh-image{
+      background-image: url("images/sub nav section 7.webp");
+}
+.eight-image{
+      background-image: url("images/sub nav section 8.webp");
+}
+.nione-image{
+      background-image: url("images/sub nav section 9.webp");
+}
+
+/* slide images section */
+
+.image-section{
+      height: 245px;
+      width: 100%;
+      background-color: rgb(241, 236, 236);
+      display: flex;
+      justify-content: center;
+}
+.main-image{
+      background-image: url("images/main image.webp");
+      height: 225px;
+      width: 98%;
+      background-size: cover;
+      border-radius: 8px;
+}
+
+ /* cart sections start */
+
+.cart-section{
+      width: 100%;
+      height: 363px;
+      background-color: rgb(241, 236, 236);
+      display: flex;
+      justify-content: space-evenly;
+}
+.left-section{
+      width: 78.2%;
+      height: 340px;
+      background-color: #fff;
+}
+.headig{
+      padding: 20px;
+      margin-top: 10px;
+      font-size: 20px;
+      font-weight: bold;
+      color: rgb(43, 40, 40);
+}
+.carts-of-first-section{
+      display: flex;
+      justify-content: space-evenly;
+}
+.cart{
+      height: 252px;
+      width: 200px;
+      border: 0.5px solid rgb(77, 74, 74);
+      border-radius: 5px;
+}
+.cart-image{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.cart-image-1{
+      background-image: url("images/first cart image 1.png");
+      width: 100%;
+      height: 195px;
+      background-size: cover;
+}
+.cart-image-2{
+      background-image: url("images/first cart image 2.png");
+      width: 100%;
+      height: 180px;
+      background-size: cover;
+}
+.cart-image-3{
+      background-image: url("images/first cart image 3.png");
+      width: 100%;
+      height: 160px;
+      background-size: cover;
+}
+.cart-image-4{
+      background-image: url("images/first cart image 4.png");
+      width: 100%;
+      height: 170px;
+      background-size: cover;
+}
+.cart-image-5{
+      background-image: url("images/first cart image 5.png");
+      width: 100%;
+      height: 130px;
+      background-size: cover;
+}
+.cart-name{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+.cart-name-1{
+      margin-top: 10px;
+}
+.cart-name-2{
+      margin-top: 27px;
+}
+.cart-name-3{
+      margin-top: 48px;
+}
+.cart-name-4{
+      margin-top: 40px;
+}
+.cart-name-5{
+      margin-top: 80px;
+}
+.right-section{
+      width: 18.2%;
+      height: 340px;
+      background-color: #fff;
+      background-image: url("images/advertisement.jpeg");
+      background-size: cover;
+}
+
+/* offer section */
+
+.offer-section{
+      width: 100%;
+      height: 250px;
+      background-color: rgb(241, 236, 236);
+      display: flex;
+      justify-content: space-evenly;
+}
+.offer-images{
+      width: 98%;
+      height: 230px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+}
+.offer-image1{
+      background-image: url("images/offer-image-1.webp");
+      width: 98%;
+      height: 230px;
+      background-size: cover;
+}
+.offer-image2{
+      background-image: url("images/offer-image-2.webp");
+      width: 98%;
+      height: 230px;
+      background-size: cover;
+}
+.offer-image3{
+      background-image: url("images/offer-image-3.webp");
+      width: 98%;
+      height: 230px;
+      background-size: cover;
+}
+
+/* FOOTER SECTION */
+
+.footer-section{
+      height: 320px;
+      background-color: rgb(27, 27, 27);
+      color: white;
+      padding: 80px;
+      font-size: 15px;
+}
+.footer-left-table-heading{
+      color: gray;
+}
+table{
+      width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
